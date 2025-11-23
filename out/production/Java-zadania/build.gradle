@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.joanna'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
+}
+
+java {
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
+}
+
+application {
+    mainClass = 'Arrays' // zmień na plik z metodą main, np. Arrays lub wyszukiwarkaKsiazek
+}
+
+test {
+    useJUnitPlatform()
+}
