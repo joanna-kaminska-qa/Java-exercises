@@ -24,10 +24,10 @@ The repository is structured to allow building, running, and testing each module
 
 ## Module 1: java-basics
 
-**Description:**  
+**Description**  
 Exercises and homework completed as part of the Kodilla "Automated Tester" Java course, focusing on Object-Oriented Programming (OOP) in Java 21. Covers basics of classes, objects, methods, constructors, arrays, loops, enums, static variables/methods, and control structures. Developed in IntelliJ IDEA.
 
-**Project Structure:**  
+**Project Structure**  
 ```text
 kodilla-intro/
 ├── src/
@@ -79,10 +79,10 @@ test { useJUnitPlatform() }
 
 ## Module 2: collections-basics
 
-**Description:**  
+**Description**  
 Exercises focusing on Java Collections (List, Set) and interfaces. Covers polymorphism, random object generation, collection operations, and utility methods.
 
-**Project Structure:**  
+**Project Structure**  
 ```text
 kodilla-collections/
 ├── src/main/java/com/kodilla/
@@ -130,7 +130,7 @@ test { useJUnitPlatform() }
 ```
 ---
 
-**Test Suites Overview:**  
+**Test Suites Overview**  
 - **Interfaces:**  
   - Validates area and perimeter calculations for Circle, Square, and Triangle  
   - Checks correct implementation of the Shape interface  
@@ -157,7 +157,7 @@ test { useJUnitPlatform() }
   - Tests Stamp and StampsApplication functionality  
 ---
 
-**Optional Terminal Commands:**  
+**Optional Terminal Commands**  
 ```bash
 ./gradlew build
 ./gradlew test
@@ -183,7 +183,7 @@ kodilla-collections-advanced/
 │       └── homework
 └── test/java/com/kodilla/collections/adv/
 ```
-**Dependencies (build.gradle):**
+**Dependencies (build.gradle)**
 ```gradle
 plugins { id 'java' }
 group = 'com.kodilla'
@@ -197,14 +197,14 @@ test { useJUnitPlatform() }
 ```
 ---
 
-**Test Suites Overview:**  
+**Test Suites Overview**  
 - Dictionary Module: Adding words, multimap-like behavior, translation retrieval
 - Flight Finder Module: Searching flights by departure/arrival, filtering logic
 - Immutability Module: Verify immutable objects, defensive copying
 - Maps Module: Nested map operations, value summarization, mapping principals to schools
 ---
 
-**Optional Terminal Commands:**  
+**Optional Terminal Commands**  
 ```bash
 ./gradlew build
 ./gradlew test
@@ -226,7 +226,7 @@ stream/
 │   └── stream/
 └── test/java/com/kodilla/
 ```
-**Dependencies (build.gradle):**
+**Dependencies (build.gradle)**
 ```gradle
 plugins { id 'java' }
 group = 'com.kodilla'
@@ -240,13 +240,13 @@ test { useJUnitPlatform() }
 ```
 ---
 
-**Test Suites Overview:**  
+**Test Suites Overview**  
 - Exception Module: Handling missing airports, warehouse operations, custom exceptions
 - Optional Module: Safe student/teacher lookup, Optional usage, default/fallback values
 - Stream Module: Filtering, mapping, reducing, aggregating user and employee data
 ---
 
-**Optional Terminal Commands:**  
+**Optional Terminal Commands**  
 ```bash
 ./gradlew build
 ./gradlew test
@@ -271,7 +271,7 @@ Java-zadania/
 ├── Java-zadania.iml
 └── structure.txt
 ```
-**Dependencies (build.gradle):**
+**Dependencies (build.gradle)**
 ```gradle
 plugins { id 'java' }
 group = 'com.kodilla'
@@ -284,7 +284,7 @@ dependencies {
 test { useJUnitPlatform() }
 ```
 
-**Optional Terminal Commands:**  
+**Optional Terminal Commands**  
 ```bash
 ./gradlew build
 ./gradlew test
@@ -324,6 +324,7 @@ See the `LICENSE` file for details.
 - IntelliJ IDEA documentation
 - Oracle Streams & Optional documentation
 - Stack Overflow
+
 
 
 
