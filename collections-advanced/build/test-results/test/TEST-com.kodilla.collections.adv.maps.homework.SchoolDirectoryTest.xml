@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.collections.adv.maps.homework.SchoolDirectoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-28T18:41:50.104Z" hostname="DESKTOP-CMK6P3P" time="0.028">
+  <properties/>
+  <testcase name="testSchoolDirectory()" classname="com.kodilla.collections.adv.maps.homework.SchoolDirectoryTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

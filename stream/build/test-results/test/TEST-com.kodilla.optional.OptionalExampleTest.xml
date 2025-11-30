@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.optional.OptionalExampleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-11-28T18:47:40.792Z" hostname="DESKTOP-CMK6P3P" time="0.02">
+  <properties/>
+  <testcase name="testOptionalEmpty()" classname="com.kodilla.optional.OptionalExampleTest" time="0.015"/>
+  <testcase name="testOptional()" classname="com.kodilla.optional.OptionalExampleTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
