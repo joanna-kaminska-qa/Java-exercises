@@ -17,7 +17,7 @@ The repository is structured to allow building, running, and testing each module
 1. [Module 1: java-basics](#module-1-java-basics)  
 2. [Module 2: collections-basics](#module-2-collections-basics)  
 3. [Module 3: collections-advanced](#module-3-collections-advanced)  
-4. [Module 4: java-stream](#module-4-java-stream)  
+4. [Module 4: stream](#module-4-stream)  
 5. [Module 5: extra-exercises](#module-5-extra-exercises)  
 
 ---
@@ -212,7 +212,7 @@ test { useJUnitPlatform() }
 ```
 ---
 
-## Module 4: java-stream
+## Module 4: stream
 
 **Description**
 Exercises on Java Streams, Optional API, and Exception Handling. Covers functional-style programming, null-safety, safe retrieval, and processing collections.
@@ -324,6 +324,7 @@ See the `LICENSE` file for details.
 - IntelliJ IDEA documentation
 - Oracle Streams & Optional documentation
 - Stack Overflow
+
 
 
 
