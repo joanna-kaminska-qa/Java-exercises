@@ -55,7 +55,7 @@ kodilla-intro/
 │           └── UserDialogs.java
 └── build.gradle, settings.gradle, gradlew, gradlew.bat, LICENSE, README.md
 ```
-### Dependencies (Gradle)
+**Dependencies (Gradle)**
 ```
 plugins { id 'java' }
 group = 'com.kodilla'
@@ -67,9 +67,8 @@ dependencies {
 }
 test { useJUnitPlatform() }
 ```
----
 
-### Optional Terminal Commands
+**Optional Terminal Commands**
 
 ```bash
 ./gradlew build     # Build project
@@ -117,7 +116,7 @@ kodilla-collections/
 │           └── StampsApplication.java
 └── test/java/com/kodilla/collections/
 ```
-### Dependencies (Gradle)
+**Dependencies (Gradle)**
 ```
 plugins { id 'java' }
 group = 'com.kodilla'
@@ -129,6 +128,7 @@ dependencies {
 }
 test { useJUnitPlatform() }
 ```
+---
 
 **Test Suites Overview:**  
 - **Interfaces:**  
@@ -155,6 +155,7 @@ test { useJUnitPlatform() }
   - Validates uniqueness of elements  
   - Ensures correct equals() and hashCode() implementation  
   - Tests Stamp and StampsApplication functionality  
+---
 
 **Optional Terminal Commands:**  
 ```bash
@@ -166,10 +167,10 @@ test { useJUnitPlatform() }
 
 ## Module 3: collections-advanced
 
-### Description
+**Description**
 Exercises on advanced collections, immutability, nested structures, and Maps in Java 21. Includes dictionary module, flights homework, and immutability tasks.
 
-### Project Structure
+**Project Structure**
 ```
 kodilla-collections-advanced/
 ├── src/main/java/com/kodilla/collections/adv/
@@ -201,6 +202,7 @@ test { useJUnitPlatform() }
 - Flight Finder Module: Searching flights by departure/arrival, filtering logic
 - Immutability Module: Verify immutable objects, defensive copying
 - Maps Module: Nested map operations, value summarization, mapping principals to schools
+---
 
 **Optional Terminal Commands:**  
 ```bash
@@ -212,10 +214,10 @@ test { useJUnitPlatform() }
 
 ## Module 4: java-stream
 
-### Description
+**Description**
 Exercises on Java Streams, Optional API, and Exception Handling. Covers functional-style programming, null-safety, safe retrieval, and processing collections.
 
-### Project Structure
+**Project Structure**
 ```
 stream/
 ├── src/main/java/com/kodilla/
@@ -242,6 +244,7 @@ test { useJUnitPlatform() }
 - Exception Module: Handling missing airports, warehouse operations, custom exceptions
 - Optional Module: Safe student/teacher lookup, Optional usage, default/fallback values
 - Stream Module: Filtering, mapping, reducing, aggregating user and employee data
+---
 
 **Optional Terminal Commands:**  
 ```bash
@@ -253,10 +256,10 @@ test { useJUnitPlatform() }
 
 ## Module 5: extra-exercises
 
-### Description
+**Description**
 Personal exercises practicing Java basics, arrays, loops, conditional statements, custom methods, OOP, and search algorithms.
 
-### Project Structure
+**Project Structure**
 ```
 Java-zadania/
 ├── Arrays.java
@@ -321,5 +324,6 @@ See the `LICENSE` file for details.
 - IntelliJ IDEA documentation
 - Oracle Streams & Optional documentation
 - Stack Overflow
+
 
 
